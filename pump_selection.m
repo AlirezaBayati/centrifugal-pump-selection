@@ -1440,7 +1440,7 @@ legend('Location','best');
 grid on
 
 
-%% Diagnostic Plot 2: Efficiency & Impeller Curves (One Subplot Per Pump)
+%% Plot 2: Efficiency & Impeller Curves (One Subplot Per Pump)
 figure('Name','Pump Efficiency and Impeller Curves','NumberTitle','off');
 for i = 1:numel(pump)
     subplot(ceil(numel(pump)/2),2,i); hold on
